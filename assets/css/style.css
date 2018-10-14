@@ -1,3 +1,10 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+
+
 .header {
     background-color: yellow;
     color: black;
@@ -5,7 +12,6 @@
     float: left;
     padding: 25px;
     margin: 5px;
-
 }
 
 .paragraph {
@@ -18,19 +24,38 @@
 }
 
 #targetScore {
-    background-color: yellow;
+    background-color: red;
     color: black;
-    padding: 10px;
+    padding: 25px;
     margin: 5px;
 }
 
-#scoreCount {
+.scoreCount {
     background-color: lightblue;
     color: black;
-    margin: 10px
+    margin: 10px;
+    padding: 5px;
 }
 
-#adidas, #jordan, #underArmour, #vans {
+#adidas, #jordan, #underArmour, #puma {
     width: 100px;
     height: 100px;
+}
+
+#userScore {
+    background-color: orange;
+    color: black;
+    padding: 25px;
+    margin: 5px;
+}
+
+.userScore {
+    background-color: orange;
+    color: black;
+    margin: 5px;
+}
+
+.images {
+    padding: 5px;
+    margin: 5px;
 }
